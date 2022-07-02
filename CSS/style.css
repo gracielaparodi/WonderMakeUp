@@ -1,9 +1,12 @@
 /*Fondo*/
 body {
-    background-image: linear-gradient(135deg, rgb(251, 242, 239), rgb(242, 206, 210), rgb(224, 156, 168), rgb(246, 114, 138));
-    background-size: 200%;
-    /*background-color: rgb(250, 225, 218);*/
+    background-color: rgb(250, 225, 218);
 
+}
+
+/*Home*/
+.HOME {
+    padding: 5px;
 }
 
 /*Banner*/
@@ -12,63 +15,11 @@ body {
     width: 100%;
 }
 
-/* menu */
-.menu ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    flex-wrap: wrap;
-
-}
-
-/* items del menu */
-.menu ul li {
-    background-color: #ff6593;
-}
-
-/* enlaces del menu */
-.menu ul a {
-    display: block;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 15px;
-    padding: 10px;
-    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    letter-spacing: 1px;
-}
-
-/* items del menu */
-.menu ul li {
-    position: relative;
-    float: left;
-    margin: 0;
-    padding: 0;
-}
-
-/* efecto al pasar el ratón por los items del menu */
-.menu ul li:hover {
-    background: #f9b6ca;
-}
-
-/* Submenu*/
-.nav2 {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-}
-
-.submenu:hover {
-    filter: opacity(0.9);
-    transform: scale(1.04);
-}
-
-
 /*Link para volver arriba*/
 #Arriba {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    text-align: right
+    text-align: right;
 }
 
 a:link {
@@ -87,36 +38,6 @@ a:active {
     color: salmon;
 }
 
-/*Grid Index*/
-
-.grid-container {
-
-    padding: 10px;
-    text-align: center;
-}
-
-.header {
-    grid-area: header;
-
-}
-
-.main {
-    grid-area: main;
-}
-
-.footer {
-    grid-area: footer;
-}
-
-.grid-container {
-    display: grid;
-    gap: 10px;
-    grid-template:
-        "header" 600px
-        "main" auto
-        "footer" 100px;
-}
-
 
 
 /*Footer*/
@@ -128,60 +49,12 @@ footer {
     padding-bottom: 16px;
 }
 
-/*Textos*/
-.Intro {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(255, 135, 175);
-    text-align: center;
-    font-size: x-large;
-}
-
-.txt {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(173, 117, 117);
-    text-align: justify;
-    font-size: medium;
-}
-
-.brochastxt {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(173, 117, 117);
-    text-align: left;
-    font-size: large;
-    margin-top: 5px;
-}
-
-.brochastxtv {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(173, 117, 117);
-    text-align: justify;
-    font-size: large;
-    margin-top: 5px;
-    text-align: center;
-}
-
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #ff6593;
-    text-align: center;
-}
-
-h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(173, 117, 117);
-}
-
-h4 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #ff6593;
-}
-
-
 /*Redes*/
 .redes {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     text-align: right;
+    padding: 10px;
 }
 
 .redes1:hover {
@@ -244,19 +117,6 @@ h4 {
     flex-wrap: wrap;
 }
 
-/*Imagenes*/
-.skincareimg {
-    display: flex;
-    justify-content: center;
-    width: auto;
-    height: 600px;
-}
-
-.brochasimg {
-    width: 300px;
-    height: auto;
-}
-
 /*Grid Videos Tutorial*/
 .parent1 {
     display: grid;
@@ -272,6 +132,136 @@ h4 {
     justify-content: center;
     border-radius: 4px;
     transition: transform 0.3s ease-in-out;
+}
+
+/*Imagenes*/
+.skincareimg {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.brochasimg {
+    width: 300px;
+    height: auto;
+}
+
+/* Submenu*/
+.nav2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    align-items: center;
+}
+
+.submenu:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04);
+}
+
+/*Textos*/
+.Intro {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 135, 175);
+    text-align: center;
+    font-size: x-large;
+}
+
+.txt {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(173, 117, 117);
+    text-align: justify;
+    font-size: medium;
+    padding: 50px;
+}
+
+.txtb {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(173, 117, 117);
+    text-align: justify;
+    font-size: medium;
+}
+
+.brochastxt {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(173, 117, 117);
+    text-align: left;
+    font-size: large;
+    margin-top: 5px;
+}
+
+.brochastxtv {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(173, 117, 117);
+    text-align: justify;
+    font-size: large;
+    margin-top: 5px;
+    text-align: center;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ff6593;
+    text-align: center;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(173, 117, 117);
+}
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(173, 117, 117);
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ff6593;
+    text-align: center;
+
+}
+
+h5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #5f4a50;
+
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(173, 117, 117);
+}
+
+
+.intro {
+    padding: 30px;
+}
+
+/*Padding*/
+.prod {
+    padding: 30px;
+}
+
+.mapa {
+    padding: 30px;
+}
+
+.parent1 {
+    padding: 30px;
+
+}
+
+.carousel {
+    width: 55%;
+    margin: auto;
+
+}
+
+@media only screen and (max-width: 414px) {
+    .carousel {
+        width: 95%;
+    }
 }
 
 /*Grid Productos*/
@@ -298,6 +288,3 @@ h4 {
 
 
 }
-
-
-/*Animacion*/
