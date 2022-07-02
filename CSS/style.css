@@ -51,16 +51,20 @@ footer {
 
 /*Redes*/
 .redes {
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    text-align: right;
-    padding: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+.redes1 {
+    display: flex;
+    padding: 5px;
+
 }
 
 .redes1:hover {
 
     filter: opacity(0.9);
-    transform: scale(1.02);
+    transform: scale(1.06);
 }
 
 /*Flexbox brochas*/
@@ -127,12 +131,6 @@ footer {
     flex-wrap: wrap;
 }
 
-.tutos {
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-    transition: transform 0.3s ease-in-out;
-}
 
 /*Imagenes*/
 .skincareimg {
@@ -149,14 +147,20 @@ footer {
 
 /* Submenu*/
 .nav2 {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    align-items: center;
+    justify-content: center;
 }
 
 .submenu:hover {
     filter: opacity(0.9);
     transform: scale(1.04);
+}
+
+.submenu {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
 
 /*Textos*/
@@ -172,7 +176,9 @@ footer {
     color: rgb(173, 117, 117);
     text-align: justify;
     font-size: medium;
-    padding: 50px;
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .txtb {
@@ -222,7 +228,7 @@ h3 {
 
 }
 
-h5 {
+.h5 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #5f4a50;
 
@@ -237,6 +243,19 @@ p {
 .intro {
     padding: 30px;
 }
+
+.skincaretxt {
+    padding: 30px;
+}
+
+.prodtxt {
+    padding: 30px;
+}
+
+.btxt {
+    padding: 30px;
+}
+
 
 /*Padding*/
 .prod {
@@ -262,6 +281,11 @@ p {
     .carousel {
         width: 95%;
     }
+
+    .nav2 {
+        display: grid;
+    }
+
 }
 
 /*Grid Productos*/
