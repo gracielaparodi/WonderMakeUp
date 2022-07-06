@@ -131,6 +131,13 @@ footer {
     flex-wrap: wrap;
 }
 
+.tutos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /*Imagenes*/
 .skincareimg {
@@ -284,6 +291,22 @@ p {
 
     .nav2 {
         display: grid;
+    }
+
+    iframe {
+        width: 350px;
+        height: 200px;
+    }
+
+    .Banner {
+        width: 100%;
+    }
+
+    .tutos {
+        justify-content: left;
+        align-items: baseline;
+        padding: 0px;
+        width: 350px;
     }
 
 }
