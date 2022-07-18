@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: $Titte-Color2 ;
+}
+
+.brochasr {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 15px;
+}
+
+.brochas1 {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+
+
+
+.txt {
+    color: $Text-color;
+    @extend %texto;
+    padding-top: 10px;
+
+}
+
+.brochastxtv {
+    color: $Text-color;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.btxt {
+    padding: 30px;
+}

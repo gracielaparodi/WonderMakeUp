@@ -1,0 +1,65 @@
+@import "../base/variables";
+
+main {
+    h1 {
+        color: $Tittle-Color;
+        text-align: center;
+        padding: 20px;
+    }
+
+    p {
+        color: $Text-color;
+    }
+
+    .nav2 {
+        display: flex;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        justify-content: center;
+
+        .submenu {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .submenu:hover {
+            filter: opacity(0.9);
+            transform: scale(1.04);
+        }
+    }
+
+    h2 {
+        color: $Text-color;
+        text-align: center;
+        padding: 30px;
+    }
+
+    figcaption {
+        width: 30%;
+        margin: auto;
+    }
+
+    section {
+        padding: 30px;
+
+        h4 {
+            color: $Text-color;
+        }
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    figcaption {
+        width: 95px;
+    }
+
+    .nav2 {
+        display: grid;
+        flex-wrap: wrap;
+    }
+
+    iframe {
+        width: 350px;
+        height: 200px;
+    }
+}
