@@ -40,7 +40,8 @@ main .nav2 .submenu:hover {
 main h2 {
   color: rgb(173, 117, 117);
   text-align: center;
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 main figcaption {
   width: 30%;
