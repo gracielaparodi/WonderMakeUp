@@ -19,7 +19,6 @@ body {
 main h1 {
   color: #ff6593;
   text-align: center;
-  padding: 20px;
 }
 main p {
   color: rgb(173, 117, 117);
@@ -48,13 +47,13 @@ main figcaption {
   margin: auto;
 }
 main section {
-  padding: 30px;
+  padding-top: 30px;
 }
 main section h4 {
   color: rgb(173, 117, 117);
 }
 
-@media only screen and (max-width: 414px) {
+@media (max-width: 414px) {
   figcaption {
     width: 95px;
   }
@@ -63,8 +62,19 @@ main section h4 {
     flex-wrap: wrap;
   }
   iframe {
-    width: 350px;
-    height: 200px;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) and (max-width: 820px) {
+  figcaption {
+    width: 95px;
+  }
+  .nav2 {
+    display: grid;
+    flex-wrap: wrap;
+  }
+  iframe {
+    width: 100%;
   }
 }
 /* Variables */
@@ -73,7 +83,12 @@ header banner {
   width: 100%;
 }
 
-@media only screen and (max-width: 414px) {
+@media (max-width: 414px) {
+  .Banner {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) and (max-width: 820px) {
   .Banner {
     width: 100%;
   }

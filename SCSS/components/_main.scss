@@ -4,7 +4,7 @@ main {
     h1 {
         color: $Tittle-Color;
         text-align: center;
-        padding: 20px;
+
     }
 
     p {
@@ -20,6 +20,7 @@ main {
             display: flex;
             justify-content: center;
             padding: 10px;
+
         }
 
         .submenu:hover {
@@ -32,6 +33,7 @@ main {
         color: $Text-color;
         text-align: center;
         padding: 30px;
+
     }
 
     figcaption {
@@ -40,7 +42,8 @@ main {
     }
 
     section {
-        padding: 30px;
+
+        padding-top: 30px;
 
         h4 {
             color: $Text-color;
@@ -48,7 +51,8 @@ main {
     }
 }
 
-@media only screen and (max-width: 414px) {
+
+@media (max-width: 414px) {
     figcaption {
         width: 95px;
     }
@@ -59,7 +63,22 @@ main {
     }
 
     iframe {
-        width: 350px;
-        height: 200px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 768px) and (max-width: 820px) {
+    figcaption {
+        width: 95px;
+    }
+
+    .nav2 {
+        display: grid;
+        flex-wrap: wrap;
+    }
+
+    iframe {
+        width: 100%;
     }
 }

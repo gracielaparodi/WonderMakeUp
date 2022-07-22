@@ -7,7 +7,13 @@ header {
     }
 }
 
-@media only screen and (max-width: 414px) {
+@media (max-width: 414px) {
+    .Banner {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) and (max-width: 820px) {
     .Banner {
         width: 100%;
     }
