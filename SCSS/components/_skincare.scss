@@ -29,6 +29,9 @@ h3 {
 
 @media (max-width: 414px) {
     .skincareimg {
+        display: flex;
+        padding: 10px;
+        justify-content: center;
         width: 100%;
         height: auto;
 
@@ -39,7 +42,10 @@ h3 {
 
 @media (max-width: 768px) and (max-width: 820px) {
     .skincareimg {
-        width: 300px;
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        width: 100%;
         height: auto;
 
     }
