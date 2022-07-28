@@ -20,36 +20,44 @@ main h1 {
   color: #ff6593;
   text-align: center;
 }
+
 main p {
   color: rgb(173, 117, 117);
 }
+
 main .nav2 {
   display: flex;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   justify-content: center;
 }
+
 main .nav2 .submenu {
   display: flex;
   justify-content: center;
   padding: 10px;
 }
+
 main .nav2 .submenu:hover {
   filter: opacity(0.9);
   transform: scale(1.04);
 }
+
 main h2 {
   color: rgb(173, 117, 117);
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
 main figcaption {
   width: 30%;
   margin: auto;
 }
+
 main section {
   padding-top: 30px;
 }
+
 main section h4 {
   color: rgb(173, 117, 117);
 }
@@ -58,26 +66,32 @@ main section h4 {
   figcaption {
     width: 95px;
   }
+
   .nav2 {
     display: grid;
     flex-wrap: wrap;
   }
+
   iframe {
     width: 100%;
   }
 }
+
 @media (max-width: 768px) and (max-width: 820px) {
   figcaption {
     width: 95px;
   }
+
   .nav2 {
     display: grid;
     flex-wrap: wrap;
   }
+
   iframe {
     width: 100%;
   }
 }
+
 /* Variables */
 header banner {
   justify-content: center;
@@ -89,11 +103,13 @@ header banner {
     width: 100%;
   }
 }
+
 @media (max-width: 768px) and (max-width: 820px) {
   .Banner {
     width: 100%;
   }
 }
+
 /* Variables */
 footer {
   position: relative;
@@ -102,32 +118,40 @@ footer {
   width: 100%;
   padding-bottom: 16px;
 }
+
 footer .redes {
   display: flex;
   justify-content: right;
   padding: 20px;
 }
+
 footer .redes .redes1 {
   display: flex;
   padding: 5px;
 }
+
 footer .redes .redes1:hover {
   filter: opacity(0.9);
   transform: scale(1.06);
 }
+
 footer #Arriba {
   text-decoration: none;
   text-align: right;
 }
+
 footer #Arriba a:link {
   color: #fff;
 }
+
 footer #Arriba a:hover {
   color: #5f4a50;
 }
+
 footer #Arriba a:visited {
   color: rgb(173, 117, 117);
 }
+
 footer #Arriba a:active {
   color: rgb(234, 174, 191);
 }
@@ -189,12 +213,14 @@ p {
   gap: 10px;
   padding: 30px;
 }
+
 .parent .grid-item {
   align-items: center;
   justify-content: center;
   border-radius: 4px;
   transition: transform 0.3s ease-in-out;
 }
+
 .parent .grid-item:hover {
   filter: opacity(0.9);
   transform: scale(1.04);
@@ -205,6 +231,7 @@ p {
     margin: 50px;
   }
 }
+
 .skincaretxt {
   color: #ff6593;
   padding: 30px;
@@ -222,6 +249,7 @@ h3 {
   width: 100%;
   height: auto;
 }
+
 .skincareimg .txt {
   color: rgb(173, 117, 117);
   margin-left: 50px;
@@ -237,6 +265,7 @@ h3 {
     height: auto;
   }
 }
+
 @media (max-width: 768px) and (max-width: 820px) {
   .skincareimg {
     display: flex;
@@ -246,6 +275,7 @@ h3 {
     height: auto;
   }
 }
+
 h1 {
   color: #ff6593;
   text-align: center;
@@ -263,12 +293,14 @@ p {
   gap: 10px;
   padding: 30px;
 }
+
 .parent .grid-item {
   align-items: center;
   justify-content: center;
   border-radius: 4px;
   transition: transform 0.3s ease-in-out;
 }
+
 .parent .grid-item:hover {
   filter: opacity(0.9);
   transform: scale(1.04);
@@ -279,6 +311,7 @@ p {
     margin: 50px;
   }
 }
+
 .parent1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
@@ -287,12 +320,14 @@ p {
   grid-row-gap: 5px;
   flex-wrap: wrap;
 }
+
 .parent1 .tutos {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .parent1 .tutos h4 {
   color: rgb(173, 117, 117);
   padding: 30px;
@@ -300,16 +335,19 @@ p {
 
 @media only screen and (max-width: 414px) {
   .tutos {
-    justify-content: left;
+    justify-content: center;
     align-items: baseline;
-    margin: 20px;
-    padding: 0px;
-    width: 350px;
+    margin: 30px;
+    width: 315px;
   }
 }
-.txt, .skincareimg .txt {
+
+.txt,
+.skincareimg .txt {
   text-align: justify;
   font-size: medium;
+  margin-left: 30px;
+  margin-right: 30px
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,6 +1,7 @@
 .skincaretxt {
     color: $Tittle-Color;
-    padding: 30px;
+    margin-left: 30px;
+    margin-right: 30px
 }
 
 h3 {
@@ -11,7 +12,6 @@ h3 {
 
 .skincareimg {
     display: flex;
-    padding: 10px;
     justify-content: center;
     width: 100%;
     height: auto;
@@ -19,9 +19,9 @@ h3 {
 
     .txt {
         color: $Text-color;
-        margin-left: 50px;
-        margin-right: 50px;
         @extend %texto;
+        margin-left: 30px;
+        margin-right: 30px
     }
 
 
